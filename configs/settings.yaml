@@ -1,0 +1,161 @@
+# Third-Party Risk Assessment (TPRA) Configuration
+# This file contains scoring weights, thresholds, and assessment parameters
+
+# Risk Category Weights (must sum to 1.0)
+risk_categories:
+  security_controls: 0.25      # Network security, access controls, encryption
+  compliance: 0.20             # Certifications, regulatory compliance
+  data_governance: 0.20        # Data handling, privacy, retention
+  business_continuity: 0.15    # Availability, disaster recovery, vendor stability
+  operational_security: 0.10   # Personnel, physical security
+  contract_legal: 0.10         # Legal protections, SLAs, jurisdiction
+
+# Scoring Matrix for Individual Questions
+scoring_matrix:
+  critical: 4    # Excellent/Fully Compliant
+  high: 3        # Good/Mostly Compliant
+  medium: 2      # Fair/Partially Compliant
+  low: 1         # Poor/Non-Compliant
+
+# Risk Level Thresholds (percentage scores)
+risk_thresholds:
+  low: 85        # 85-100% = Low Risk
+  medium: 70     # 70-84% = Medium Risk
+  high: 55       # 55-69% = High Risk
+  critical: 0    # 0-54% = Critical Risk
+
+# Assessment Frequency (days between assessments)
+assessment_frequency:
+  critical_risk: 30    # Monthly
+  high_risk: 90        # Quarterly
+  medium_risk: 180     # Semi-annually
+  low_risk: 365        # Annually
+
+# Compliance Frameworks and Requirements
+compliance_frameworks:
+  soc2:
+    required_controls:
+      - security_controls
+      - availability
+      - confidentiality
+    minimum_score: 80
+    
+  iso27001:
+    required_controls:
+      - information_security_policy
+      - risk_management
+      - access_control
+    minimum_score: 85
+    
+  gdpr:
+    required_controls:
+      - data_protection
+      - privacy_by_design
+      - data_subject_rights
+    minimum_score: 90
+    
+  hipaa:
+    required_controls:
+      - administrative_safeguards
+      - physical_safeguards
+      - technical_safeguards
+    minimum_score: 95
+
+# Industry-Specific Risk Adjustments
+industry_risk_multipliers:
+  financial_services: 1.2
+  healthcare: 1.3
+  government: 1.4
+  technology: 1.0
+  retail: 0.9
+  manufacturing: 0.8
+
+# Vendor Tier Classifications
+vendor_tiers:
+  tier_1:
+    description: "Critical vendors with high impact on operations"
+    risk_tolerance: "low"
+    assessment_frequency: 90
+    required_certifications: ["soc2", "iso27001"]
+    
+  tier_2:
+    description: "Important vendors with moderate impact"
+    risk_tolerance: "medium"
+    assessment_frequency: 180
+    required_certifications: ["soc2"]
+    
+  tier_3:
+    description: "Standard vendors with limited impact"
+    risk_tolerance: "medium"
+    assessment_frequency: 365
+    required_certifications: []
+
+# Risk Scoring Adjustments
+risk_adjustments:
+  new_vendor_penalty: -10      # Reduce score for vendors < 2 years old
+  geographic_risk:
+    high_risk_countries: ["Country A", "Country B"]
+    risk_penalty: -15
+  
+  data_sensitivity:
+    pii_handling: -5            # Additional scrutiny for PII
+    financial_data: -10         # Higher standards for financial data
+    healthcare_data: -15        # Strictest requirements for health data
+
+# Automated Decision Rules
+automated_decisions:
+  auto_reject_threshold: 40     # Automatically reject vendors below this score
+  require_approval_threshold: 70 # Require management approval below this score
+  expedited_approval_threshold: 90 # Fast-track approvals above this score
+
+# Notification Settings
+notifications:
+  critical_risk_alerts: true
+  assessment_due_reminders: true
+  compliance_expiration_warnings: true
+  risk_score_change_threshold: 10  # Alert if score changes by this amount
+
+# Report Generation Settings
+reporting:
+  default_format: "pdf"
+  include_recommendations: true
+  include_trend_analysis: true
+  executive_summary_only: false
+  
+  charts:
+    risk_distribution: true
+    category_breakdown: true
+    trend_over_time: true
+    peer_comparison: true
+
+# Data Retention
+data_retention:
+  assessment_records: 2555     # 7 years in days
+  vendor_documents: 1095       # 3 years in days
+  audit_logs: 2555            # 7 years in days
+
+# Integration Settings
+integrations:
+  enable_api: true
+  api_rate_limit: 100          # Requests per hour
+  webhook_notifications: false
+  
+  external_data_sources:
+    security_ratings: false     # BitSight, SecurityScorecard, etc.
+    financial_data: false       # D&B, credit ratings
+    threat_intelligence: false  # Vendor breach notifications
+
+# Quality Assurance
+quality_assurance:
+  require_evidence_upload: true
+  mandatory_reviewer_approval: true
+  minimum_evidence_items: 3
+  auto_validation_rules: true
+
+# Custom Fields for Organization-Specific Requirements
+custom_fields:
+  business_unit: "text"
+  contract_value: "number"
+  data_classification: "select"
+  geographic_scope: "multiselect"
+  integration_complexity: "scale"

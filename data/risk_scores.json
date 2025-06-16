@@ -1,0 +1,644 @@
+[
+  {
+    "vendor_name": "Microsoft Azure",
+    "assessment_date": "2025-06-16",
+    "overall_score": 100.0,
+    "risk_level": "Low",
+    "category_scores": {
+      "security_controls": 100.0,
+      "compliance": 100.0,
+      "data_governance": 100.0,
+      "business_continuity": 100.0,
+      "operational_security": 100.0,
+      "contract_legal": 100.0
+    },
+    "recommendations": [
+      "Vendor meets acceptable risk standards"
+    ],
+    "next_assessment_date": "2026-06-16"
+  },
+  {
+    "vendor_name": "Amazon Web Services",
+    "assessment_date": "2025-06-16",
+    "overall_score": 98.57,
+    "risk_level": "Low",
+    "category_scores": {
+      "security_controls": 100.0,
+      "compliance": 92.86,
+      "data_governance": 100.0,
+      "business_continuity": 100.0,
+      "operational_security": 100.0,
+      "contract_legal": 100.0
+    },
+    "recommendations": [
+      "Vendor meets acceptable risk standards"
+    ],
+    "next_assessment_date": "2026-06-16"
+  },
+  {
+    "vendor_name": "Salesforce",
+    "assessment_date": "2025-06-16",
+    "overall_score": 94.71,
+    "risk_level": "Low",
+    "category_scores": {
+      "security_controls": 100.0,
+      "compliance": 78.57,
+      "data_governance": 100.0,
+      "business_continuity": 100.0,
+      "operational_security": 90.0,
+      "contract_legal": 100.0
+    },
+    "recommendations": [
+      "Monitor and improve Compliance"
+    ],
+    "next_assessment_date": "2026-06-16"
+  },
+  {
+    "vendor_name": "Slack Technologies",
+    "assessment_date": "2025-06-16",
+    "overall_score": 93.57,
+    "risk_level": "Low",
+    "category_scores": {
+      "security_controls": 100.0,
+      "compliance": 67.86,
+      "data_governance": 100.0,
+      "business_continuity": 100.0,
+      "operational_security": 100.0,
+      "contract_legal": 100.0
+    },
+    "recommendations": [
+      "Immediate attention required for Compliance"
+    ],
+    "next_assessment_date": "2026-06-16"
+  },
+  {
+    "vendor_name": "Zoom Video",
+    "assessment_date": "2025-06-16",
+    "overall_score": 94.29,
+    "risk_level": "Low",
+    "category_scores": {
+      "security_controls": 100.0,
+      "compliance": 71.43,
+      "data_governance": 100.0,
+      "business_continuity": 100.0,
+      "operational_security": 100.0,
+      "contract_legal": 100.0
+    },
+    "recommendations": [
+      "Monitor and improve Compliance"
+    ],
+    "next_assessment_date": "2026-06-16"
+  },
+  {
+    "vendor_name": "ServiceNow",
+    "assessment_date": "2025-06-16",
+    "overall_score": 95.71,
+    "risk_level": "Low",
+    "category_scores": {
+      "security_controls": 100.0,
+      "compliance": 78.57,
+      "data_governance": 100.0,
+      "business_continuity": 100.0,
+      "operational_security": 100.0,
+      "contract_legal": 100.0
+    },
+    "recommendations": [
+      "Monitor and improve Compliance"
+    ],
+    "next_assessment_date": "2026-06-16"
+  },
+  {
+    "vendor_name": "Okta",
+    "assessment_date": "2025-06-16",
+    "overall_score": 95.71,
+    "risk_level": "Low",
+    "category_scores": {
+      "security_controls": 100.0,
+      "compliance": 78.57,
+      "data_governance": 100.0,
+      "business_continuity": 100.0,
+      "operational_security": 100.0,
+      "contract_legal": 100.0
+    },
+    "recommendations": [
+      "Monitor and improve Compliance"
+    ],
+    "next_assessment_date": "2026-06-16"
+  },
+  {
+    "vendor_name": "Atlassian",
+    "assessment_date": "2025-06-16",
+    "overall_score": 92.57,
+    "risk_level": "Low",
+    "category_scores": {
+      "security_controls": 100.0,
+      "compliance": 67.86,
+      "data_governance": 100.0,
+      "business_continuity": 100.0,
+      "operational_security": 90.0,
+      "contract_legal": 100.0
+    },
+    "recommendations": [
+      "Immediate attention required for Compliance"
+    ],
+    "next_assessment_date": "2026-06-16"
+  },
+  {
+    "vendor_name": "DocuSign",
+    "assessment_date": "2025-06-16",
+    "overall_score": 93.57,
+    "risk_level": "Low",
+    "category_scores": {
+      "security_controls": 100.0,
+      "compliance": 67.86,
+      "data_governance": 100.0,
+      "business_continuity": 100.0,
+      "operational_security": 100.0,
+      "contract_legal": 100.0
+    },
+    "recommendations": [
+      "Immediate attention required for Compliance"
+    ],
+    "next_assessment_date": "2026-06-16"
+  },
+  {
+    "vendor_name": "Dropbox Business",
+    "assessment_date": "2025-06-16",
+    "overall_score": 92.57,
+    "risk_level": "Low",
+    "category_scores": {
+      "security_controls": 100.0,
+      "compliance": 67.86,
+      "data_governance": 100.0,
+      "business_continuity": 100.0,
+      "operational_security": 90.0,
+      "contract_legal": 100.0
+    },
+    "recommendations": [
+      "Immediate attention required for Compliance"
+    ],
+    "next_assessment_date": "2026-06-16"
+  },
+  {
+    "vendor_name": "HubSpot",
+    "assessment_date": "2025-06-16",
+    "overall_score": 93.57,
+    "risk_level": "Low",
+    "category_scores": {
+      "security_controls": 100.0,
+      "compliance": 67.86,
+      "data_governance": 100.0,
+      "business_continuity": 100.0,
+      "operational_security": 100.0,
+      "contract_legal": 100.0
+    },
+    "recommendations": [
+      "Immediate attention required for Compliance"
+    ],
+    "next_assessment_date": "2026-06-16"
+  },
+  {
+    "vendor_name": "Workday",
+    "assessment_date": "2025-06-16",
+    "overall_score": 95.71,
+    "risk_level": "Low",
+    "category_scores": {
+      "security_controls": 100.0,
+      "compliance": 78.57,
+      "data_governance": 100.0,
+      "business_continuity": 100.0,
+      "operational_security": 100.0,
+      "contract_legal": 100.0
+    },
+    "recommendations": [
+      "Monitor and improve Compliance"
+    ],
+    "next_assessment_date": "2026-06-16"
+  },
+  {
+    "vendor_name": "Tableau",
+    "assessment_date": "2025-06-16",
+    "overall_score": 93.57,
+    "risk_level": "Low",
+    "category_scores": {
+      "security_controls": 100.0,
+      "compliance": 67.86,
+      "data_governance": 100.0,
+      "business_continuity": 100.0,
+      "operational_security": 100.0,
+      "contract_legal": 100.0
+    },
+    "recommendations": [
+      "Immediate attention required for Compliance"
+    ],
+    "next_assessment_date": "2026-06-16"
+  },
+  {
+    "vendor_name": "Splunk",
+    "assessment_date": "2025-06-16",
+    "overall_score": 95.71,
+    "risk_level": "Low",
+    "category_scores": {
+      "security_controls": 100.0,
+      "compliance": 78.57,
+      "data_governance": 100.0,
+      "business_continuity": 100.0,
+      "operational_security": 100.0,
+      "contract_legal": 100.0
+    },
+    "recommendations": [
+      "Monitor and improve Compliance"
+    ],
+    "next_assessment_date": "2026-06-16"
+  },
+  {
+    "vendor_name": "Snowflake",
+    "assessment_date": "2025-06-16",
+    "overall_score": 96.43,
+    "risk_level": "Low",
+    "category_scores": {
+      "security_controls": 100.0,
+      "compliance": 82.14,
+      "data_governance": 100.0,
+      "business_continuity": 100.0,
+      "operational_security": 100.0,
+      "contract_legal": 100.0
+    },
+    "recommendations": [
+      "Monitor and improve Compliance"
+    ],
+    "next_assessment_date": "2026-06-16"
+  },
+  {
+    "vendor_name": "Twilio",
+    "assessment_date": "2025-06-16",
+    "overall_score": 92.57,
+    "risk_level": "Low",
+    "category_scores": {
+      "security_controls": 100.0,
+      "compliance": 67.86,
+      "data_governance": 100.0,
+      "business_continuity": 100.0,
+      "operational_security": 90.0,
+      "contract_legal": 100.0
+    },
+    "recommendations": [
+      "Immediate attention required for Compliance"
+    ],
+    "next_assessment_date": "2026-06-16"
+  },
+  {
+    "vendor_name": "Stripe",
+    "assessment_date": "2025-06-16",
+    "overall_score": 97.86,
+    "risk_level": "Low",
+    "category_scores": {
+      "security_controls": 100.0,
+      "compliance": 89.29,
+      "data_governance": 100.0,
+      "business_continuity": 100.0,
+      "operational_security": 100.0,
+      "contract_legal": 100.0
+    },
+    "recommendations": [
+      "Vendor meets acceptable risk standards"
+    ],
+    "next_assessment_date": "2026-06-16"
+  },
+  {
+    "vendor_name": "Zendesk",
+    "assessment_date": "2025-06-16",
+    "overall_score": 93.57,
+    "risk_level": "Low",
+    "category_scores": {
+      "security_controls": 100.0,
+      "compliance": 67.86,
+      "data_governance": 100.0,
+      "business_continuity": 100.0,
+      "operational_security": 100.0,
+      "contract_legal": 100.0
+    },
+    "recommendations": [
+      "Immediate attention required for Compliance"
+    ],
+    "next_assessment_date": "2026-06-16"
+  },
+  {
+    "vendor_name": "MongoDB Atlas",
+    "assessment_date": "2025-06-16",
+    "overall_score": 95.71,
+    "risk_level": "Low",
+    "category_scores": {
+      "security_controls": 100.0,
+      "compliance": 78.57,
+      "data_governance": 100.0,
+      "business_continuity": 100.0,
+      "operational_security": 100.0,
+      "contract_legal": 100.0
+    },
+    "recommendations": [
+      "Monitor and improve Compliance"
+    ],
+    "next_assessment_date": "2026-06-16"
+  },
+  {
+    "vendor_name": "GitHub",
+    "assessment_date": "2025-06-16",
+    "overall_score": 92.57,
+    "risk_level": "Low",
+    "category_scores": {
+      "security_controls": 100.0,
+      "compliance": 67.86,
+      "data_governance": 100.0,
+      "business_continuity": 100.0,
+      "operational_security": 90.0,
+      "contract_legal": 100.0
+    },
+    "recommendations": [
+      "Immediate attention required for Compliance"
+    ],
+    "next_assessment_date": "2026-06-16"
+  },
+  {
+    "vendor_name": "Datadog",
+    "assessment_date": "2025-06-16",
+    "overall_score": 95.71,
+    "risk_level": "Low",
+    "category_scores": {
+      "security_controls": 100.0,
+      "compliance": 78.57,
+      "data_governance": 100.0,
+      "business_continuity": 100.0,
+      "operational_security": 100.0,
+      "contract_legal": 100.0
+    },
+    "recommendations": [
+      "Monitor and improve Compliance"
+    ],
+    "next_assessment_date": "2026-06-16"
+  },
+  {
+    "vendor_name": "PagerDuty",
+    "assessment_date": "2025-06-16",
+    "overall_score": 93.57,
+    "risk_level": "Low",
+    "category_scores": {
+      "security_controls": 100.0,
+      "compliance": 67.86,
+      "data_governance": 100.0,
+      "business_continuity": 100.0,
+      "operational_security": 100.0,
+      "contract_legal": 100.0
+    },
+    "recommendations": [
+      "Immediate attention required for Compliance"
+    ],
+    "next_assessment_date": "2026-06-16"
+  },
+  {
+    "vendor_name": "New Relic",
+    "assessment_date": "2025-06-16",
+    "overall_score": 92.57,
+    "risk_level": "Low",
+    "category_scores": {
+      "security_controls": 100.0,
+      "compliance": 67.86,
+      "data_governance": 100.0,
+      "business_continuity": 100.0,
+      "operational_security": 90.0,
+      "contract_legal": 100.0
+    },
+    "recommendations": [
+      "Immediate attention required for Compliance"
+    ],
+    "next_assessment_date": "2026-06-16"
+  },
+  {
+    "vendor_name": "Akamai Technologies",
+    "assessment_date": "2025-06-16",
+    "overall_score": 95.71,
+    "risk_level": "Low",
+    "category_scores": {
+      "security_controls": 100.0,
+      "compliance": 78.57,
+      "data_governance": 100.0,
+      "business_continuity": 100.0,
+      "operational_security": 100.0,
+      "contract_legal": 100.0
+    },
+    "recommendations": [
+      "Monitor and improve Compliance"
+    ],
+    "next_assessment_date": "2026-06-16"
+  },
+  {
+    "vendor_name": "CloudFlare",
+    "assessment_date": "2025-06-16",
+    "overall_score": 93.57,
+    "risk_level": "Low",
+    "category_scores": {
+      "security_controls": 100.0,
+      "compliance": 67.86,
+      "data_governance": 100.0,
+      "business_continuity": 100.0,
+      "operational_security": 100.0,
+      "contract_legal": 100.0
+    },
+    "recommendations": [
+      "Immediate attention required for Compliance"
+    ],
+    "next_assessment_date": "2026-06-16"
+  },
+  {
+    "vendor_name": "Box",
+    "assessment_date": "2025-06-16",
+    "overall_score": 94.29,
+    "risk_level": "Low",
+    "category_scores": {
+      "security_controls": 100.0,
+      "compliance": 71.43,
+      "data_governance": 100.0,
+      "business_continuity": 100.0,
+      "operational_security": 100.0,
+      "contract_legal": 100.0
+    },
+    "recommendations": [
+      "Monitor and improve Compliance"
+    ],
+    "next_assessment_date": "2026-06-16"
+  },
+  {
+    "vendor_name": "Adobe Creative Cloud",
+    "assessment_date": "2025-06-16",
+    "overall_score": 92.57,
+    "risk_level": "Low",
+    "category_scores": {
+      "security_controls": 100.0,
+      "compliance": 67.86,
+      "data_governance": 100.0,
+      "business_continuity": 100.0,
+      "operational_security": 90.0,
+      "contract_legal": 100.0
+    },
+    "recommendations": [
+      "Immediate attention required for Compliance"
+    ],
+    "next_assessment_date": "2026-06-16"
+  },
+  {
+    "vendor_name": "CyberArk",
+    "assessment_date": "2025-06-16",
+    "overall_score": 95.71,
+    "risk_level": "Low",
+    "category_scores": {
+      "security_controls": 100.0,
+      "compliance": 78.57,
+      "data_governance": 100.0,
+      "business_continuity": 100.0,
+      "operational_security": 100.0,
+      "contract_legal": 100.0
+    },
+    "recommendations": [
+      "Monitor and improve Compliance"
+    ],
+    "next_assessment_date": "2026-06-16"
+  },
+  {
+    "vendor_name": "Rapid7",
+    "assessment_date": "2025-06-16",
+    "overall_score": 95.71,
+    "risk_level": "Low",
+    "category_scores": {
+      "security_controls": 100.0,
+      "compliance": 78.57,
+      "data_governance": 100.0,
+      "business_continuity": 100.0,
+      "operational_security": 100.0,
+      "contract_legal": 100.0
+    },
+    "recommendations": [
+      "Monitor and improve Compliance"
+    ],
+    "next_assessment_date": "2026-06-16"
+  },
+  {
+    "vendor_name": "Qualys",
+    "assessment_date": "2025-06-16",
+    "overall_score": 95.71,
+    "risk_level": "Low",
+    "category_scores": {
+      "security_controls": 100.0,
+      "compliance": 78.57,
+      "data_governance": 100.0,
+      "business_continuity": 100.0,
+      "operational_security": 100.0,
+      "contract_legal": 100.0
+    },
+    "recommendations": [
+      "Monitor and improve Compliance"
+    ],
+    "next_assessment_date": "2026-06-16"
+  },
+  {
+    "vendor_name": "SumoLogic",
+    "assessment_date": "2025-06-16",
+    "overall_score": 92.57,
+    "risk_level": "Low",
+    "category_scores": {
+      "security_controls": 100.0,
+      "compliance": 67.86,
+      "data_governance": 100.0,
+      "business_continuity": 100.0,
+      "operational_security": 90.0,
+      "contract_legal": 100.0
+    },
+    "recommendations": [
+      "Immediate attention required for Compliance"
+    ],
+    "next_assessment_date": "2026-06-16"
+  },
+  {
+    "vendor_name": "Proofpoint",
+    "assessment_date": "2025-06-16",
+    "overall_score": 95.71,
+    "risk_level": "Low",
+    "category_scores": {
+      "security_controls": 100.0,
+      "compliance": 78.57,
+      "data_governance": 100.0,
+      "business_continuity": 100.0,
+      "operational_security": 100.0,
+      "contract_legal": 100.0
+    },
+    "recommendations": [
+      "Monitor and improve Compliance"
+    ],
+    "next_assessment_date": "2026-06-16"
+  },
+  {
+    "vendor_name": "Mimecast",
+    "assessment_date": "2025-06-16",
+    "overall_score": 93.57,
+    "risk_level": "Low",
+    "category_scores": {
+      "security_controls": 100.0,
+      "compliance": 67.86,
+      "data_governance": 100.0,
+      "business_continuity": 100.0,
+      "operational_security": 100.0,
+      "contract_legal": 100.0
+    },
+    "recommendations": [
+      "Immediate attention required for Compliance"
+    ],
+    "next_assessment_date": "2026-06-16"
+  },
+  {
+    "vendor_name": "TechSmith",
+    "assessment_date": "2025-06-16",
+    "overall_score": 65.71,
+    "risk_level": "High",
+    "category_scores": {
+      "security_controls": 81.25,
+      "compliance": 35.71,
+      "data_governance": 66.67,
+      "business_continuity": 75.0,
+      "operational_security": 70.0,
+      "contract_legal": 66.67
+    },
+    "recommendations": [
+      "Monitor and improve Security Controls",
+      "Immediate attention required for Compliance",
+      "Immediate attention required for Data Governance",
+      "Monitor and improve Business Continuity",
+      "Monitor and improve Operational Security",
+      "Immediate attention required for Contract Legal",
+      "Develop detailed risk mitigation plan before engagement"
+    ],
+    "next_assessment_date": "2025-09-14"
+  },
+  {
+    "vendor_name": "Smaller Vendor Co",
+    "assessment_date": "2025-06-16",
+    "overall_score": 37.49,
+    "risk_level": "Critical",
+    "category_scores": {
+      "security_controls": 40.62,
+      "compliance": 28.57,
+      "data_governance": 37.5,
+      "business_continuity": 45.83,
+      "operational_security": 35.0,
+      "contract_legal": 37.5
+    },
+    "recommendations": [
+      "Immediate attention required for Security Controls",
+      "Immediate attention required for Compliance",
+      "Immediate attention required for Data Governance",
+      "Immediate attention required for Business Continuity",
+      "Immediate attention required for Operational Security",
+      "Immediate attention required for Contract Legal",
+      "Consider alternative vendors or require immediate remediation"
+    ],
+    "next_assessment_date": "2025-07-16"
+  }
+]
