@@ -41,8 +41,8 @@ Ensure you have the following installed:
 
 ### Clone the Repository
 ```bash
-git clone https://github.com/your-username/third-party-risk-assessment.git
-cd third-party-risk-assessment
+git clone https://github.com/tebellombhele/TPRA-Project.git
+cd TPRA-Project
 ```
 
 ### Install Dependencies
